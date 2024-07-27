@@ -1,0 +1,50 @@
+.contact-page {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4fa3d0;
+}
+
+.status-message {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e0ffe0;
+  border: 1px solid #d0f0d0;
+  border-radius: 4px;
+  color: #2d6a4f;
+}
+
+.status-message.error {
+  background-color: #ffe0e0;
+  border-color: #f0d0d0;
+  color: #6a2d2d;
+}

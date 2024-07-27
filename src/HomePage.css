@@ -1,0 +1,248 @@
+/* General Styles */
+.home-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  background: #282c34;
+  color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+}
+
+.profile-container {
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid #61dafb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #61dafb;
+}
+
+/* Navigation Links */
+.nav {
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul li {
+  margin: 0 15px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #61dafb;
+  font-size: 1.1em;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Introduction Section */
+.introduction {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+}
+
+.introduction:hover {
+  transform: scale(1.03); /* Scale up by 3% */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.about-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-link:hover {
+  text-decoration: underline;
+}
+
+/* Skills Section */
+.skills {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+}
+
+.skills:hover {
+  transform: scale(1.03); /* Scale up by 3% */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.skills h2 {
+  font-size: 2em;
+  color: #61dafb;
+  margin-bottom: 10px;
+}
+
+.skills p {
+  margin: 10px 0;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+/* Projects Section */
+.projects {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-item {
+  flex: 1 1 calc(50% - 20px);
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.project-item a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+/* CTA Section */
+.cta {
+  background: #282c34;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 800px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+}
+
+.cta:hover {
+  transform: scale(1.03); /* Scale up by 3% */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.cta h2 {
+  font-size: 2em;
+  color: #61dafb;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  margin: 10px 0;
+}
+
+.cta-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  color: #333;
+  background: #f0f0f0;
+  width: 100%;
+  max-width: 800px;
+}
+
+.footer a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
