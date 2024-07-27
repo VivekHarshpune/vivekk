@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/vivekk/static/css/main.b9477f79.css",
-    "main.js": "/vivekk/static/js/main.dd63924a.js",
+    "main.js": "/vivekk/static/js/main.416b3140.js",
     "static/js/453.6b27de93.chunk.js": "/vivekk/static/js/453.6b27de93.chunk.js",
     "static/media/1652733850767 copy.jpg": "/vivekk/static/media/1652733850767 copy.808d46567f9f10ed6b15.jpg",
     "index.html": "/vivekk/index.html",
     "main.b9477f79.css.map": "/vivekk/static/css/main.b9477f79.css.map",
-    "main.dd63924a.js.map": "/vivekk/static/js/main.dd63924a.js.map",
+    "main.416b3140.js.map": "/vivekk/static/js/main.416b3140.js.map",
     "453.6b27de93.chunk.js.map": "/vivekk/static/js/453.6b27de93.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9477f79.css",
-    "static/js/main.dd63924a.js"
+    "static/js/main.416b3140.js"
   ]
 }
