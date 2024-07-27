@@ -34,7 +34,7 @@ const AboutPage = () => {
           </ul>
           <p><strong>DAV Kapildev Public School, Ranchi, Jharkhand</strong></p>
           <ul>
-            <li>12th Higher Secondary: First class with 63%</li>
+            <li>12th Higher Secondary: First class with 73%</li>
             <li>10th: First class with 85.17%</li>
           </ul>
         </section>

@@ -17,16 +17,21 @@ const ContactPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
+    console.log('Form Data:', formData); // Debug: Check form data
   
     try {
-      await axios.post(`${process.env.REACT_APP_NODE_API_URL}/api/contact`, formData);
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/contact`, formData);
+      console.log('Response:', response); // Debug: Check response
       setStatusMessage('Thank you for reaching out! Our team will get back to you soon.');
       setFormData({ name: '', email: '', message: '' });
     } catch (error) {
-      console.error('Error sending message:', error);
+      console.error('Error sending message:', error); // Log error
       setStatusMessage('There was an error sending your message. Please try again.');
     }
   };
+  
+  
 
   return (
     <div className="contact-page">
