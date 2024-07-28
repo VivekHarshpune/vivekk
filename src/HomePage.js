@@ -1,3 +1,4 @@
+// HomePage.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './HomePage.css';
@@ -6,14 +7,11 @@ import profileImage from './1652733850767 copy.jpg'; // Ensure this path is corr
 const HomePage = () => {
   return (
     <div className="home-page">
-      <header className="header">
-        <div className="profile-container">
-          <img src={profileImage} alt="Vivek" className="profile-image" />
-        </div>
-        <h1>Vivek's Portfolio</h1>
-        <p>Welcome! I am Vivek, a BTech 4th-year student and passionate coder.</p>
-       
-      </header>
+      <div className="profile-container">
+        <img src={profileImage} alt="Vivek" className="profile-image" />
+      </div>
+      <h1>Vivek's Portfolio</h1>
+      <p>Welcome! I am Vivek, a BTech 4th-year student and passionate coder.</p>
 
       <section className="introduction">
         <h2>About Me</h2>

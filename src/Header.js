@@ -1,6 +1,7 @@
+// Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'; // Ensure this path is correct
+import './Header.css';
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       <div className="header-container">
         <h1>Welcome to Vivek's Website</h1>
         <nav className="header-nav">
-          <ul>
+          <ul className="nav-list">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><Link to="/contact">Contact</Link></li>

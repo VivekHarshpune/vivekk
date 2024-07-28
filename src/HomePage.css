@@ -10,10 +10,11 @@
   align-items: center;
 }
 
+/* Header Section */
 .header {
   text-align: center;
   background: #282c34;
-  color: #ffffff;
+  color: #b51717;
   padding: 40px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -22,8 +23,38 @@
   position: relative;
 }
 
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-nav .nav-list {
+  list-style-type: none;
+  padding: 10;
+  margin: 10;
+  display: flex;
+  justify-content: center; /* Center the navigation items horizontally */
+}
+
+.header-nav .nav-list li {
+  margin:0 25px; /* Space between the items */
+}
+
+.header-nav .nav-list li a {
+  text-decoration: none;
+  color: #9a1d1d;
+  font-weight: bold;
+}
+
+.header-nav .nav-list li a:hover {
+  color: #007bff;
+}
+
+/* Profile Section */
 .profile-container {
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
 }
 
 .profile-image {
@@ -35,6 +66,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Text Styling */
 h1 {
   margin: 0;
   font-size: 2.5em;
@@ -77,12 +109,12 @@ h1 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 800px;
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .introduction:hover {
-  transform: scale(1.03); /* Scale up by 3% */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .about-link {
@@ -104,12 +136,12 @@ h1 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 800px;
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .skills:hover {
-  transform: scale(1.03); /* Scale up by 3% */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .skills h2 {
@@ -185,12 +217,12 @@ h1 {
   margin: 20px 0;
   width: 100%;
   max-width: 800px;
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .cta:hover {
-  transform: scale(1.03); /* Scale up by 3% */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .cta h2 {
@@ -240,6 +272,7 @@ h1 {
 
 .social-icons a {
   margin: 0 10px;
+  display: inline-block;
 }
 
 .social-icons img {
